@@ -8,7 +8,6 @@ namespace AgendaBeca
 {
     class Agenda
     {
-        static List<Pessoa> agenda = new List<Pessoa> { };
         string fileName = @"C:\temp\agenda.txt";
 
         public void Adicionar() // Adiciona Contato na Agenda
