@@ -10,6 +10,10 @@ namespace AgendaBeca
     {
         static void Main(string[] args)
         {
+            MenuAgenda menu = new MenuAgenda();
+            menu.ConsoleConfig();
+            menu.MenuPrincipal();
+            Console.Read();
         }
     }
 }
